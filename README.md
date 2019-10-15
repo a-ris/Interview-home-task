@@ -18,4 +18,17 @@ Requirements:
 *Additional tasks (optional)
 1. Implement update note feature
 
-
+2. Solve JS tasks
+2.1 What is the order of logging? Please explain why.
+(function() {
+ console.log(1);
+ setTimeout(function(){console.log(2)}, 1000);
+ setTimeout(function(){console.log(3)}, 0);
+ console.log(4);
+})();
+2.2 Write a function that would allow you to do this:
+var addSix = createBase(6);
+addSix(10); // returns 16
+addSix(21); // returns 27
+Code sharing:
+Create public GitHub repository and send the link when tasks will be ready.
